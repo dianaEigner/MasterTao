@@ -1,0 +1,87 @@
+@media screen and (max-width: 575px) {
+    header {
+        padding: 6px 0px;
+        button.btn.btn-outline-success{
+            margin: 0 auto;
+        }
+
+        #navbarSupportedContent {
+            transition: 2s ease;
+        }
+
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+            padding: 41px 0px 0px 0px;
+            text-align: center;
+            line-height: 48px;
+            width: auto;
+        }
+
+        .nav-link {
+            color: #FFF;
+            text-align: center;
+            font-family: 'ProximaNova';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        .navbar {
+            padding: 0;
+        }
+
+        button.btn.btn-outline-success {
+            border-radius: 90px;
+            background: #E58D35;
+            border: none;
+            width: 295px;
+            height: 68px;
+            color: #FFF;
+            text-align: center;
+            font-family: "ProximaNova";
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 28px;
+        }
+
+        .navbar-brand {
+            padding: 3px 0px 0 5px;
+
+            img {
+                width: 126px;
+                flex-shrink: 0px;
+            }
+        }
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: inherit;
+    }
+
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        width: 28px;
+        height: 2.5px;
+        background-color: #000;
+        border-radius: 0px;
+        position: absolute;
+        transition-property: transform;
+        transition-duration: 0.15s;
+        transition-timing-function: ease;
+    }
+
+    .hamburger-inner {
+        left: 22px;
+        top: 15px;
+    }
+
+    .hamburger-inner::before {
+        top: -11px;
+    }
+
+    .hamburger-inner::after {
+        top: 11px;
+    }
+}
